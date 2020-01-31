@@ -1,7 +1,4 @@
 /*
-Copyright 2012 Jun Wako <wakojun@gmail.com>
-Copyright 2015 Jack Humbert
-
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or
@@ -31,12 +28,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 9
 
-// wiring of each half
 #define MATRIX_ROW_PINS { F4, D4, E6, D7, B4}
 #define MATRIX_COL_PINS { F5, F6, F7, B1, B3, B2, B6, B5, C6}
 #define MATRIX_ROW_PINS_RIGHT { F4, D4, E6, D7, B4}
 #define MATRIX_COL_PINS_RIGHT { F5, F6, F7, B1, B3, B2, B6, B5, C6}
-// #define SPLIT_HAND_PIN D2
 
 #define DIODE_DIRECTION COL2ROW
 
@@ -51,8 +46,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define LOCKING_RESYNC_ENABLE
 
 #define MASTER_RIGHT
-
-/* ws2812 RGB LED */
-// #define RGB_DI_PIN D3
-// #define RGBLIGHT_ANIMATIONS
-// #define RGBLED_NUM 16    // Number of LEDs
