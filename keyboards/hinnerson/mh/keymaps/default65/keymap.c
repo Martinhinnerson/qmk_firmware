@@ -25,13 +25,13 @@
 //┌────────┬────────┬────────┬────────┬────────┬────────┬────────┐          //┌────────┬────────┬────────┬────────┬────────┬────────┬─────────────────┬────────┐
     KC_GESC, KC_F1,   KC_F2,   KC_F3,    KC_F4,   KC_F5,   KC_F6,               KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,      KC_DEL,      KC_INS,  \
 //|────────┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┘      //┌───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬────────────┬────────|
-      XXXXXXX,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              XXXXXXX, KC_WH_U, KC_MS_U, KC_WH_D, KC_WH_U, XXXXXXX, XXXXXXX,              XXXXXXX, \
+      _______,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              XXXXXXX, KC_WH_U, KC_MS_U, KC_WH_D, KC_WH_U, XXXXXXX, XXXXXXX,              XXXXXXX, \
 //|─────────────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┐        //└─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┐          |────────|
-    XXXXXXX,       XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX,              KC_BTN3, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D, XXXXXXX, XXXXXXX,  XXXXXXX,  KC_WH_U, \
+    _______,       XXXXXXX, KC_ACL0, KC_ACL1, KC_ACL2, XXXXXXX,              KC_BTN3, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D, XXXXXXX, XXXXXXX,  _______,  KC_WH_U, \
 //|──────────┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┐      //└───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴────────┴─┬────────|────────|
-    XXXXXXX,  KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              KC_BTN2, KC_MUTE, KC_WBAK, KC_WFWD, KC_RCTL,    XXXXXXX,     KC_VOLU, KC_WH_D, \
+    _______,  KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              KC_BTN2, KC_MUTE, KC_WBAK, KC_WFWD, KC_RCTL,    _______,     KC_VOLU, KC_WH_D, \
 //|──────────|────────┴─┬──────┴───┬────┴─────┬──┴────────┴────────|          //|────────┴────────┴──────┬─┴──────┬─┴──────┬─┴──────┬────────|────────|────────|
-    XXXXXXX,  XXXXXXX,   XXXXXXX,    XXXXXXX,       KC_BTN1,                            KC_BTN1,          XXXXXXX, XXXXXXX, KC_MPLY, KC_MPRV, KC_VOLD, KC_MNXT
+    _______,  _______,   _______,    _______,       KC_BTN1,                            KC_BTN1,          _______, _______, KC_MPLY, KC_MPRV, KC_VOLD, KC_MNXT
 //└──────────┴──────────┴──────────┴──────────┴────────────────────┘          //└────────────────────────┴────────┴────────┴────────┴────────┴────────┴────────|
   ),
 
@@ -39,13 +39,13 @@
 //┌────────┬────────┬────────┬────────┬────────┬────────┬────────┐          //┌────────┬────────┬────────┬────────┬────────┬────────┬─────────────────┬────────┐
     KC_GESC, KC_F1,   KC_F2,   KC_F3,    KC_F4,   KC_F5,   KC_F6,               KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,      KC_DEL,      KC_INS,  \
 //|────────┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┘      //┌───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬────────────┬────────|
-      XXXXXXX,   XXXXXXX, KC_HOME,  KC_UP,   KC_DEL, XXXXXXX,               XXXXXXX, KC_HOME,  KC_UP,   KC_END, KC_DEL, XXXXXXX, XXXXXXX,              XXXXXXX, \
+      _______,   XXXXXXX, KC_HOME,  KC_UP,   KC_DEL, XXXXXXX,              XXXXXXX, KC_HOME,  KC_UP,   KC_END, KC_DEL,  XXXXXXX, XXXXXXX,              XXXXXXX, \
 //|─────────────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┐        //└─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┐          |────────|
-    XXXXXXX,       XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX,               XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, KC_ENT, XXXXXXX, XXXXXXX,  XXXXXXX,  XXXXXXX, \
+    _______,       XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX,               XXXXXXX, KC_LEFT, KC_DOWN, KC_RGHT, KC_ENT, XXXXXXX, XXXXXXX,  _______,  XXXXXXX, \
 //|──────────┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┐      //└───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴────────┴─┬────────|────────|
-    XXXXXXX,  KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              XXXXXXX, XXXXXXX, KC_WBAK, KC_WFWD, KC_RCTL,    XXXXXXX,     KC_VOLU, XXXXXXX, \
+    _______,  KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,              XXXXXXX, XXXXXXX, KC_WBAK, KC_WFWD, KC_RCTL,    _______,     KC_VOLU, XXXXXXX, \
 //|──────────|────────┴─┬──────┴───┬────┴─────┬──┴────────┴────────|          //|────────┴────────┴──────┬─┴──────┬─┴──────┬─┴──────┬────────|────────|────────|
-    XXXXXXX,  XXXXXXX,   XXXXXXX,    XXXXXXX,       KC_ENT,                             KC_ENT,           XXXXXXX, XXXXXXX, KC_MPLY, KC_MPRV, KC_VOLD, KC_MNXT
+    _______,  _______,   _______,    _______,       KC_ENT,                             KC_ENT,           _______, _______, KC_MPLY, KC_MPRV, KC_VOLD, KC_MNXT
 //└──────────┴──────────┴──────────┴──────────┴────────────────────┘          //└────────────────────────┴────────┴────────┴────────┴────────┴────────┴────────|
   )
 };
