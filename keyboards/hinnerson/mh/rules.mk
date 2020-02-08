@@ -31,6 +31,6 @@ RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight.
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 SPLIT_KEYBOARD = yes
-AUTO_SHIFT_ENABLE = yes
+AUTO_SHIFT_ENABLE = no
 
 DEFAULT_FOLDER = hinnerson/mh/rev1
