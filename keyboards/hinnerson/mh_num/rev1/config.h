@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0100
 #define MANUFACTURER    Hinnerson
 #define PRODUCT         MH_NUM
-#define DESCRIPTION     Split 65 percent staggered keyboard
+#define DESCRIPTION     Numpad
 
 /* key matrix size */
 // Rows are doubled-up
@@ -43,3 +43,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* ws2812 RGB LED */
+#define RGB_DI_PIN D2
+#define RGBLED_NUM 8    // Number of LEDs
+#define RGBLED_SPLIT { 2, 4 }
+
+// #define AUDIO_CLICKY

@@ -18,3 +18,13 @@
 
 // #define MK_3_SPEED
 // #define MK_MOMENTARY_ACCEL
+
+#undef RGBLED_NUM
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 8
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
+
+#define RGBLIGHT_LAYERS
+
