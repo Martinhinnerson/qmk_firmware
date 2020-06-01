@@ -11,7 +11,7 @@
 #define PASTE    S(KC_INS)    // SHIFT+INSERT
 #define C_TAB    C(KC_TAB)    // CTRL+TAB
 #define CS_TAB   C(S(KC_TAB)) // SHIFT+CTRL+TAB
-#define SFT_TAB  S(KC_TAB)
+#define ALT_TAB  A(KC_TAB)
 #define C_PGUP   C(KC_PGUP)
 #define C_PGDN   C(KC_PGDN)
 
@@ -34,11 +34,11 @@
 //┌────────┬────────┬────────┬────────┬────────┬────────┬────────┐          //┌────────┬────────┬────────┬────────┬────────┬────────┬─────────────────┬────────┐
     _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,                KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,      KC_DEL,      KC_INS,  \
 //|────────┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┘      //┌───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬───┴────┬────────────┬────────|
-      _______,   XXXXXXX,  CS_TAB,   COPY,   PASTE,    C_TAB,              XXXXXXX, KC_WH_U, KC_MS_U, KC_WH_D, XXXXXXX, XXXXXXX, XXXXXXX,              XXXXXXX, \
+      _______,   XXXXXXX, XXXXXXX,  C_PGDN,  C_PGUP,   COPY,               XXXXXXX, KC_WH_U, KC_MS_U, KC_WH_D, XXXXXXX, XXXXXXX, XXXXXXX,              XXXXXXX, \
 //|─────────────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┐        //└─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┬──────┴─┐          |────────|
-    _______,       SFT_TAB, KC_ACL0, KC_ACL1, KC_ACL2,  C_PGUP,              KC_BTN3, KC_MS_L, KC_MS_D, KC_MS_R,  KC_ENT, XXXXXXX, XXXXXXX,  _______,  KC_WH_U, \
+      ALT_TAB,     ALT_TAB, KC_ACL0, KC_ACL1, KC_ACL2,  PASTE,               KC_BTN3, KC_MS_L, KC_MS_D, KC_MS_R,  KC_ENT, XXXXXXX, XXXXXXX,  _______,  KC_WH_U, \
 //|──────────┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┐      //└───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴───┬────┴────────┴─┬────────|────────|
-    _______,  KC_LCTL, XXXXXXX, XXXXXXX,  C_PGDN,  C_PGUP,  C_PGDN,              KC_BTN2, KC_MUTE, KC_WBAK, KC_WFWD, KC_RCTL,    _______,     KC_VOLU, KC_WH_D, \
+    _______,  KC_LCTL, XXXXXXX, XXXXXXX,  C_PGDN,  C_PGUP,  XXXXXXX,             KC_BTN2, KC_MUTE, KC_WBAK, KC_WFWD, KC_RCTL,    _______,     KC_VOLU, KC_WH_D, \
 //|──────────|────────┴─┬──────┴───┬────┴─────┬──┴────────┴────────|          //|────────┴────────┴──────┬─┴──────┬─┴──────┬─┴──────┬────────|────────|────────|
     _______,  _______,   _______,    _______,       KC_BTN1,                            KC_BTN1,          _______, _______, KC_MPLY, KC_MPRV, KC_VOLD, KC_MNXT
 //└──────────┴──────────┴──────────┴──────────┴────────────────────┘          //└────────────────────────┴────────┴────────┴────────┴────────┴────────┴────────|
