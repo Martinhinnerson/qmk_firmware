@@ -4,7 +4,7 @@
 
 #define _DEFAULT 0
 #define _RGB  1
-#define _MOUSE 2
+#define _CALC 2
 
 typedef union {
   uint32_t raw;
@@ -20,7 +20,7 @@ user_config_t user_config;
   const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_DEFAULT] = LAYOUT_NUM(
 //┌────────┬────────┬────────┬────────┐
-   LT(_MOUSE, KC_CALC), KC_PSLS, KC_PAST, KC_PMNS,\
+   LT(_CALC, KC_NLCK), KC_PSLS, KC_PAST, KC_PMNS,\
 //|────────|────────|────────|────────|
     KC_P7,   KC_P8,   KC_P9,  KC_PPLS,\
 //|────────|────────|────────|        |
@@ -44,17 +44,17 @@ user_config_t user_config;
        XXXXXXX,     RGB_M_SN, RGB_M_K
 //└─────────────────┴────────┴────────┘
   ),
-  [_MOUSE] = LAYOUT_NUM(
+  [_CALC] = LAYOUT_NUM(
 //┌────────┬────────┬────────┬────────┐
-   TO(_DEFAULT),XXXXXXX, XXXXXXX, XXXXXXX,\
+   XXXXXXX, KC_CALC, KC_CALC, KC_CALC,\
 //|────────|────────|────────|────────|
-   KC_WH_U, KC_MS_U, KC_WH_D, XXXXXXX,\
+   KC_CALC, KC_CALC, KC_CALC, KC_CALC,\
 //|────────|────────|────────|        |
-   KC_MS_L, KC_MS_D, KC_MS_R,\
+   KC_CALC, KC_CALC, KC_CALC,\
 //|────────|────────|────────|────────|
-   KC_BTN3, KC_WBAK, KC_WFWD,\
+   KC_CALC, KC_CALC, KC_CALC,\
 //|─────────────────|────────|        |
-        KC_BTN1,     KC_BTN2,  KC_ENT
+        KC_CALC,     KC_CALC,  KC_CALC
 //└─────────────────┴────────┴────────┘
   )
 };
