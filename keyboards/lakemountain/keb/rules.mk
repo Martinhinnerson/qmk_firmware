@@ -33,4 +33,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 SPLIT_KEYBOARD = yes
 AUTO_SHIFT_ENABLE = no
 
-DEFAULT_FOLDER = hinnerson/mh/rev1
+DEFAULT_FOLDER = lakemountain/keb/rev2

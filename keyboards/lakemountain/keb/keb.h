@@ -2,7 +2,7 @@
 
 #include "quantum.h"
 
-#ifdef KEYBOARD_HINNERSON_MH_REV1
+#ifdef KEYBOARD_LAKEMOUNTAIN_KEB_REV1
     #include "rev1.h"
 #endif
 

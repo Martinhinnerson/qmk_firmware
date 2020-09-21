@@ -5,6 +5,8 @@
 // #define USE_SERIAL
 #define USE_I2C
 
+#define SPLIT_USB_DETECT
+
 #define MOUSEKEY_DELAY 0
 #define MOUSEKEY_MAX_SPEED 5
 #define MOUSEKEY_INTERVAL 16
@@ -18,3 +20,18 @@
 
 // #define MK_3_SPEED
 // #define MK_MOMENTARY_ACCEL
+
+#ifdef AUDIO_ENABLE
+  #define STARTUP_SONG SONG(MUSIC_SCALE_SOUND)
+#endif
+
+//#define AUDIO_CLICKY
+
+#undef RGBLED_NUM
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 8
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
+
+#define RGBLIGHT_LAYERS
